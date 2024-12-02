@@ -1,9 +1,4 @@
-import { useState } from 'react'
-import { MoodEntry } from '@/types/mood'
-
 export default function MoodPage() {
-  const [moodEntries, setMoodEntries] = useState<MoodEntry[]>([])
-
   return (
     <div className="space-y-6">
       <div className="bg-white shadow rounded-lg p-6">
